@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title> CSS selectors</title>
+        <style>
+          
+          .container section>p{
+            color:greenyellow;
+          }
+        </style>
+
+  </head>
+  <body>
+
+
+      <h1>Web Development Basics</h1>
+
+      <h2 class="sub">Introduction</h2>
+
+      <div class="container">
+
+        <p class="intro">Web development is the process of building websites and web applications using HTML, CSS, and JavaScript.</p>
+
+            <section>
+                <p class="highlight">CSS helps in styling the webpage by adding colors, spacing, and layout.</p>
+                    <div><p> Selctors are very helpful in different styling</p></div>
+
+            </section>
+
+        <p class="note">Selectors allow developers to target specific elements easily.</p>
+       
+      </div>
+
+      <p class="note">Responsive design makes websites look good on all devices.</p>
+
+      <h2>Conclusion</h2>
+
+      <p id="final">Understanding selectors improves your CSS skills step by step.</p>
+
+</body>
