@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Practice</title>
+  <style>
+    .box{
+        height: 200px;
+        width:200px;
+        background-color: #000000;
+        position: fixed;
+        
+    }
+    .box2{
+        
+        height: 200px;
+        width:200px;
+        background-color: blue;
+        margin-top: 20px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        
+    }
+    .long-text{
+        float: right;
+        margin-right: 20px;
+           
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+
+  <h1 class="title">CSS Positioning Practice</h1>
+  <h2>Hai developers</h2>
+
+  <div id="first">
+  <p class="para1">
+    Web development involves structuring content using HTML and styling it using CSS.
+    Understanding positioning helps developers control layout precisely.
+  </p>
+  </div>
+
+  <div id="Second">
+  <p class="para1">
+    Relative positioning allows small adjustments without breaking the document flow.
+    Absolute positioning is useful for placing elements exactly where needed.
+  </p>
+  </div>
+  
+
+  <!-- Parent box for absolute practice -->
+   <div class="BlueBox_parent">
+    <h2>HERE IS BLUEBOX</h2>
+    
+    <div class="box2">
+    </div>
+   </div>
+    
+   <div>
+    <div class="box"></div>
+    <p class="long-text">
+    Responsive design ensures that websites work well on mobile phones, tablets,
+    and desktop screens. CSS positioning plays a major role in modern layouts.
+    (Copy this paragraph multiple times to create scroll.)
+    </p>
+  </div>
+  <!-- Fixed footer -->
+  <div class="footer">
+    This is fixed footer
+  </div>
+
+  <!-- Fixed button -->
+  <button class="contact-btn">Contact Me</button>
+
+</body>
+</html>
